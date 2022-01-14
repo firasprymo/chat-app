@@ -10,12 +10,15 @@ import { TopFreelancersPage } from './top-freelancers.page';
 import {FooterComponent} from "../../component/footer/footer.component";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TopFreelancersPageRoutingModule
-  ],
-  declarations: [TopFreelancersPage, FooterComponent]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TopFreelancersPageRoutingModule
+    ],
+    exports: [
+        FooterComponent
+    ],
+    declarations: [TopFreelancersPage, FooterComponent]
 })
 export class TopFreelancersPageModule {}
