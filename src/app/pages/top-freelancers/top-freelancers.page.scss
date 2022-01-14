@@ -1,0 +1,29 @@
+.img-cover {
+  border-radius: 50%;
+  width: 100px;
+  border: 5px solid red;
+  justify-self: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.item_position ion-icon {
+  margin-right: 10px;
+}
+
+.online_item {
+  align-items: center;
+  justify-content: end;
+  display: flex;
+}
+.online_item ion-badge {
+  border-radius: 50%;
+}
+
+
+ion-searchbar{
+  --border-radius: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+
