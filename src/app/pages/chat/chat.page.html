@@ -1,11 +1,79 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons>
-      <ion-back-button></ion-back-button>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <div class="title_header">
+
+      <ion-title>Jennifer godson</ion-title>
+      <p>
+        <ion-badge color="primary"> &nbsp;&nbsp;&nbsp;</ion-badge>
+        Online
+      </p>
+    </div>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="call-outline" slot="icon-only"></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-row class="date_row">
+    <ion-col size="12">
+      <p class="ion-text-center">
+        Tuesday
+      </p>
+    </ion-col>
+  </ion-row>
+  <ion-row class="row_sender">
+    <ion-col size="8">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error.
+      </p>
+      <span>12:46 am</span>
+    </ion-col>
+  </ion-row>
+  <ion-row class="row_receiver">
+    <ion-col offset="2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error.
+      </p>
+      <span>12:46 am</span>
+    </ion-col>
+  </ion-row>
+  <ion-row class="row_receiver">
+    <ion-col offset="2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error.
+      </p>
+      <span>12:46 am</span>
+    </ion-col>
+  </ion-row>
+  <ion-row class="date_row">
+    <ion-col size="12">
+      <p class="ion-text-center">
+        Tuesday
+      </p>
+    </ion-col>
+  </ion-row>
+  <ion-row class="row_sender">
+    <ion-col size="8">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error.
+      </p>
+      <span>12:46 am</span>
+    </ion-col>
+  </ion-row>
 </ion-content>
+<ion-footer>
+  <ion-item lines="none">
+    <ion-input placeholder="Message here...">
+    </ion-input>
+    <ion-button>
+
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-footer>

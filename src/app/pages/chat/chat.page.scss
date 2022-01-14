@@ -1,0 +1,119 @@
+.title_header {
+  text-align: center;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.title_header ion-badge {
+  border-radius: 50px;
+}
+
+.title_header p {
+  margin: 5px auto 10px auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 75px;
+}
+
+
+.row_sender ion-col:after {
+  content: "";
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -8px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #e0e0e0;
+  transform: rotate(
+      -45deg);
+  /* right: 188px; */
+  top: 149px;
+  left: 0;
+}
+
+.date_row {
+  color: gray;
+  font-size: 20px;
+}
+
+
+.row_sender ion-col {
+  padding: 20px;
+  margin-left: 15px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+}
+
+.row_receiver {
+  margin-top: 25px;
+}
+
+.row_receiver ion-col {
+  padding: 20px;
+  margin-right: 15px;
+  background-color: #33318c;
+  color: #fff;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+}
+
+.row_receiver ion-col:after {
+  content: "";
+  position: absolute;
+  margin-top: -6px;
+  margin-right: -8px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #33318c;
+  transform: rotate(
+      45deg);
+  /* right: 188px; */
+  top: 149px;
+  right: 0;
+}
+
+.row_receiver span {
+  right: 0;
+  left: 150px;
+  margin: 0 0 0 213px;
+  white-space: nowrap;
+}
+
+
+
+ion-footer ion-item {
+  width: 100%;
+  /* height: 30%; */
+  border-radius: 1px;
+  position: relative;
+  padding: 5px;
+  /* bottom: 0; */
+  /* text-align: center; */
+  justify-content: center;
+  z-index: 9999;
+  margin: 0;
+  right: 0;
+}
+
+ion-footer ion-input {
+  background: #e0e0e0;
+  border-radius: 35px;
+  --padding-start: 20px;
+  --padding-top: 10px;
+  height: 60px;
+}
+
+ion-footer ion-button {
+  margin-left: auto;
+  z-index: 9999;
+  margin-right: 32px;
+  position: absolute;
+  right: 0;
+  --border-radius: 17px;
+  height: 35px;
+  width: 35px;}
